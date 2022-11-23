@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE7E7FC6292BAE0E000A944B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E7FC5292BAE0E000A944B /* DetailViewController.swift */; };
 		CEDF1B7D292A6599002CD3EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF1B7C292A6599002CD3EB /* AppDelegate.swift */; };
 		CEDF1B7F292A6599002CD3EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF1B7E292A6599002CD3EB /* SceneDelegate.swift */; };
 		CEDF1B81292A6599002CD3EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF1B80292A6599002CD3EB /* ViewController.swift */; };
 		CEDF1B84292A6599002CD3EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDF1B82292A6599002CD3EB /* Main.storyboard */; };
 		CEDF1B86292A6599002CD3EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDF1B85292A6599002CD3EB /* Assets.xcassets */; };
 		CEDF1B89292A6599002CD3EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDF1B87292A6599002CD3EB /* LaunchScreen.storyboard */; };
+		CEDF1B91292A6E0D002CD3EB /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF1B90292A6E0D002CD3EB /* Petition.swift */; };
+		CEDF1B93292A6F1B002CD3EB /* Petitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF1B92292A6F1B002CD3EB /* Petitions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE7E7FC5292BAE0E000A944B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		CEDF1B79292A6599002CD3EB /* WhiteHousePetitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhiteHousePetitions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDF1B7C292A6599002CD3EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEDF1B7E292A6599002CD3EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		CEDF1B85292A6599002CD3EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEDF1B88292A6599002CD3EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEDF1B8A292A6599002CD3EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDF1B90292A6E0D002CD3EB /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
+		CEDF1B92292A6F1B002CD3EB /* Petitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petitions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				CEDF1B7C292A6599002CD3EB /* AppDelegate.swift */,
 				CEDF1B7E292A6599002CD3EB /* SceneDelegate.swift */,
 				CEDF1B80292A6599002CD3EB /* ViewController.swift */,
+				CE7E7FC5292BAE0E000A944B /* DetailViewController.swift */,
 				CEDF1B82292A6599002CD3EB /* Main.storyboard */,
 				CEDF1B85292A6599002CD3EB /* Assets.xcassets */,
 				CEDF1B87292A6599002CD3EB /* LaunchScreen.storyboard */,
 				CEDF1B8A292A6599002CD3EB /* Info.plist */,
+				CEDF1B90292A6E0D002CD3EB /* Petition.swift */,
+				CEDF1B92292A6F1B002CD3EB /* Petitions.swift */,
 			);
 			path = WhiteHousePetitions;
 			sourceTree = "<group>";
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEDF1B81292A6599002CD3EB /* ViewController.swift in Sources */,
+				CEDF1B91292A6E0D002CD3EB /* Petition.swift in Sources */,
 				CEDF1B7D292A6599002CD3EB /* AppDelegate.swift in Sources */,
+				CE7E7FC6292BAE0E000A944B /* DetailViewController.swift in Sources */,
 				CEDF1B7F292A6599002CD3EB /* SceneDelegate.swift in Sources */,
+				CEDF1B93292A6F1B002CD3EB /* Petitions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +228,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +282,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
